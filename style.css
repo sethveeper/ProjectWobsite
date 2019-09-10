@@ -1,6 +1,20 @@
-/*  
-Charlie Barnhart
-
-
-RandyKeaton
+/*
+    Charlie Banrhart
+    "Seth" Dominic Jones-Jackson
+    Vanessa Brinkman
+    Randy Keaton
 */
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #9d6ec9;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 15px;
+  border: 5px double #521e73;
+}
