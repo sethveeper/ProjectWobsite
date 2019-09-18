@@ -1,0 +1,55 @@
+Order Items Psuedo Code
+
+/*************
+Step 1: Set Up
+*************/
+
+Create Order Item Class:
+- Properties:
+	- Picture??
+	- Item Name
+	- Quantity
+	- Base Price
+	- Total Price = Base Price * Quantity
+
+- Methods:
+	- To String
+	- To Form??
+
+Create Order Item Array:
+- Holds our Order Item objects
+
+/*****************
+Step 2: Get Orders
+*****************/
+
+When User selects an item:
+- Construct Order Item Object via form values
+- Add Object to Array
+
+When User selects Checkout:
+- Print To String and ask for confirmation
+- If confirmed, then move to Step 3
+- If denied, then clear Array and repeat Step 2
+
+- Thought: Do we want the ability to edit as opposed to starting from scratch??
+
+
+/***************
+Step 3: Checkout
+***************/
+
+Get Contact Data:
+- Get address, payment info, delivery/pickup, etc from User
+
+Get Receipt:
+- Loop through Order Items Array
+- With each iteration, add Order Item's To String to Receipt
+- Also, add Order Item's Total Price to Receipt Total
+- Once the whole array is complete, add Taxes, Tips, and Misc Charges to Receipt Total
+- Add Receipt Total to the end of the Receipt
+
+Send Receipt:
+- Send completed receipt to user
+- Send order to resteraunt for creation
+- Also, send Contact Date to resteraunt for delivery
