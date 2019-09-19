@@ -8,8 +8,8 @@ Create Order Item Class:
 - Properties:
 	- Picture??
 	- Item Name
-	- Quantity
 	- Base Price
+	- Quantity
 	- Total Price = Base Price * Quantity
 
 - Methods:
@@ -22,6 +22,19 @@ Create Order Item Array:
 /*****************
 Step 2: Get Orders
 *****************/
+
+Interface mockup:
+
+|----------------|
+| Picture        |
+|                |
+|                |
+|----------------|
+| Description    |
+|----------------|
+| Price |  Qty   |
+|----------------|
+
 
 When User selects an item:
 - Construct Order Item Object via form values
